@@ -1,14 +1,16 @@
+
 import styles from './Header.module.css';
-function Header() {
+import Nav from './Nav';
+
+function Header({ count }) { // ← добавили пропс count
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <h1 className={styles.title}>React Blog</h1>
-        <nav className={styles.nav}>
-          <a href="#" className={styles.link}>Главная</a>
-          <a href="#" className={styles.link}>Статьи</a>
-          <a href="#" className={styles.link}>О нас</a>
-        </nav>
+        <div>
+          <h1 className={styles.title}>React Blog</h1>
+          <span className={styles.count}>Статей: {count}</span> {/* ← счётчик */}
+        </div>
+        <Nav />
       </div>
     </header>
   );

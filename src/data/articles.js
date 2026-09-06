@@ -54,6 +54,26 @@ const articles = [
     date: '2 апреля 2026',
     tag: 'Git',
     image: 'https://picsum.photos/seed/git6/400/250'
+  },
+  {
+    id: 7,
+    title: 'React Router: навигация в приложении',
+    excerpt: 'Изучаем React Router DOM: создание маршрутов, переходы между страницами и защищённые роуты.',
+    author: 'Алексей Фёдоров',
+    date: '5 апреля 2026',
+    tag: 'Маршрутизация',
+    image: 'https://picsum.photos/seed/router7/400/250'
+  },
+  
+  {
+    id: 8,
+    title: 'Управление состоянием: Redux Toolkit',
+    excerpt: 'Разбираем Redux Toolkit — современный подход к управлению глобальным состоянием в React-приложениях.',
+    author: 'Екатерина Морозова',
+    date: '10 апреля 2026',
+    tag: 'Состояние',
+    image: 'https://picsum.photos/seed/redux8/400/250'
   }
+
 ];
 export default articles;

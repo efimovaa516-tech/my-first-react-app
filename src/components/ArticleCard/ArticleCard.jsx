@@ -1,6 +1,8 @@
 import styles from './ArticleCard.module.css';
+
 function ArticleCard({ article }) {
   const { title, excerpt, author, date, tag, image } = article;
+  
   return (
     <article className={styles.card}>
       <img src={image} alt={title} className={styles.image} />

@@ -12,9 +12,18 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .title {
   color: #fff;
   font-size: 1.5rem;
+}
+
+/* .nav и .link удалены — они теперь в Nav.module.css */
+.count {
+  color: #c4b5fd;
+  font-size: 0.9rem;
+  display: block;
+  margin-top: 0.25rem;
 }
 
 .nav {
